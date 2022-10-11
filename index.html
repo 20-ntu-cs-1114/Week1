@@ -140,6 +140,116 @@
         <img src="img.jfif" alt="">
     </picture>
 
+    <h2>SVG tag</h2>
+    <svg height="300px" width=300px>
+        <circle cx="50" cy="50" r="50" stroke="yellow" fill="orange"></circle>
+    </svg>
+    <br>
+    <p>The meeting will be held on <del>10:00 am</del> <ins>12:00 am</ins></p>
+    <br>
+
+
+    <!--Table-->
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: orange;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ayyan Akbar</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Kashif Rehman</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+        <caption>Student Table</caption>
+    </table>
+    <!--Form-->
+    <form action="#">
+        <fieldset>
+            <legend>Enter your personal information</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="">
+            <br><br>
+            <label for="countries">Choose your country</label>
+            <input list="countries" name="countries" id="country">
+            <datalist id="countries">
+                <option value="Pakistan"></option>
+                <option value="India"></option>
+                <option value="Srilanka"></option>
+                <option value="Bangladesh"></option>
+            </datalist>
+        <br><br>
+        </fieldset>
+        <label for="text">Enter the detail here</label>
+        <textarea name="" id="text" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="Books">Select any book</label>
+        <select name="books" id="book">
+            <optgroup label="Python">
+                <option value="">Python 6.0</option>
+                <option value="">Python 7.0</option>
+            </optgroup>
+            <optgroup label="C#">
+                <option value="">C# 2.0</option>
+                <option value="0">C# 3.0</option>
+            </optgroup>
+        </select>
+    </form>
+    <label for="meter">meter</label>
+    <meter id="meter" value="2" min="0" max="10">2 out of 10</meter>
+    <label for="progress">Progress</label>
+    <progress value="50" max="100">50%</progress>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="a" value="50">
+        +<input type="number" id="b" value="25">
+        =<output name="x" for="a b"></output>
+      </form>
+
+      <details>
+        <summary>Click to see</summary>
+        <dialog open="">I am a dialogue</dialog>
+        <p>Details</p>
+      </details>
+
+
+
+
+      <acronym title="National Textile University">NTU</acronym>
+     <p>
+        The big tag is
+         <big>Big</big>
+     </p>
+     <blink>
+        Flash Slowly
+     </blink>
+     <dir>
+        Dir Tag
+     </dir>
+     <marquee width="60%" height="100%" direction="up">
+        This is a marquee text
+     </marquee>
+     <strike>Strike through text</strike>
+
+
+    <!--Footer-->
 
     <br>
     <footer style="background-color: rgb(186, 186, 186); padding:15px;margin:30px 0px 0px 0px">
